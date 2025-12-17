@@ -20,9 +20,9 @@ Built by Jann Staebler, PhD student (Institute of Virology, University of Zurich
 
 ## Installation
 
-The source code can be found on GitHub: 
+The source code can be found on GitHub: https://github.com/jastaeb/helicalwheel
 
-Python package index at: 
+Python package index at: https://pypi.org/project/helicalwheel/
 
 Helicalwheel can be installed as follows:
 ```python

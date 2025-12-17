@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.patheffects as pe
 import math
-
+from pathlib import Path
 
 #%% Defining Amino Acid Classes and Colors
 """
@@ -170,7 +170,7 @@ def helixplot(df, makebold=None, subtitle=True, legend=True, first_pos=0):
                         fontsize=15,
                         fontweight= "bold" if boldletters and chunk.iloc[j]["mutated"] else "normal")
         if subtitle == True:
-            axes[i].set_title(f"Residues {chunk.iloc[0]['index']+1+first_pos}-{chunk.iloc[-1]['index']+1+first_pos} ")
+            axes[i].set_title(f"Residues {chunk.iloc[0]['index']+first_pos}-{chunk.iloc[-1]['index']+first_pos} ")
 
 
     # Add figure legend

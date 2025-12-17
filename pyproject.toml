@@ -3,8 +3,8 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "helicalwheelstaeb"
-version = "0.1.0"
+name = "helicalwheel"
+version = "0.1.1"
 authors = [
   {name = "Jann Staebler", email = "jann.staebler@uzh.ch"}
 ]
