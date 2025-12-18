@@ -41,9 +41,11 @@ import helicalwheel as hw
 aap2_seq = "LVWELIRWLQAVAHQWQTIT" 
 
 # Creating a dataframe with helix coordinates
-df_wt=hw.helix_coordinates(aap2_seq_wt)
+df_wt=hw.helix_coordinates(aap2_seq)
 
 #%% Plotting
+first_pos=21 # indicate the first alpha-helix residue position in the total protein sequence
+
 # Entire helix
 wt_plot_1 = hw.helixplot(df_wt, first_pos=first_pos)
 # Two individual plots figure assembly
