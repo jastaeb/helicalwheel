@@ -209,3 +209,4 @@ LICENSE
 .DS_Store
 test.py
 /plots
+/z_archive

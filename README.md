@@ -10,7 +10,7 @@ Creates a two-dimensional top-down view of an alpha-helix sequence. The advantag
 
 **Important**: This package does **not** predict whether a peptide sequence will form an alpha helix. The graph only visualizes the arrangement of residues **assuming** an alpha helix is present. We recommend first using AlphaFold or other structure prediction tools, and then using this package to visualize the predicted alpha helices.
 
-Built by Jann Staebler, PhD student (Institute of Virology, University of Zurich)
+Built by Jann Staebler, PhD student (Experimental Virology Group, Institute of Virology, University of Zurich)
 
 ## Dependencies
 
